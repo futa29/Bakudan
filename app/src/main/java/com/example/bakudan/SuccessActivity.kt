@@ -10,7 +10,7 @@ class SuccessActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_success)
 
-
+        //「もう一度」ボタンが押されると、起動時画面に戻る処理
         backButton.setOnClickListener { finish() }
     }
 
